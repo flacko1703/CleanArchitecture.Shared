@@ -1,6 +1,6 @@
 ﻿namespace CleanArchitecture.Shared.SeedWork;
 
-public record AggregateRoot<T> : AuditableEntity<T>, IDomainEvent
+public abstract class AggregateRoot<T> : AuditableEntity<T>, IDomainEvent
 {
     private readonly List<IDomainEvent> _domainEvents = new();
 

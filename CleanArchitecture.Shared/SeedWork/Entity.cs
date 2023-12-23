@@ -1,6 +1,6 @@
 ﻿namespace CleanArchitecture.Shared.SeedWork;
 
-public record Entity<T>
+public abstract class Entity<T>
 {
-    private T Id { get; init; }
+    protected T Id { get; init; }
 }
