@@ -21,12 +21,12 @@ Contains abstractions:
 Using .NET CLI:
 
 ```bash
-dotnet add package CleanArchitecture.Shared
+dotnet add package CleanArchitecture.Shared --version 1.0.2
 ```
 
 Using Package Manager:
 
 ```bash
-Install-Package CleanArchitecture.Shared
+Install-Package CleanArchitecture.Shared -Version 1.0.2
 ```
 
