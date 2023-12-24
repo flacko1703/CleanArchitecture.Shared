@@ -16,17 +16,3 @@ Contains abstractions:
   - IEventBus
   - Result (from [FluentResult]('https://www.nuget.org/packages/FluentResult') package)
 
-## Installation
-
-Using .NET CLI:
-
-```bash
-dotnet add package CleanArchitecture.Shared --version 1.0.2
-```
-
-Using Package Manager:
-
-```bash
-Install-Package CleanArchitecture.Shared -Version 1.0.2
-```
-
