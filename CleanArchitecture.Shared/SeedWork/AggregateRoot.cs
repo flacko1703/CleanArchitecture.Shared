@@ -1,6 +1,6 @@
 ﻿namespace CleanArchitecture.Shared.SeedWork;
 
-public abstract class AggregateRoot<T> : AuditableEntity<T>, IDomainEvent
+public abstract class AggregateRoot : AuditableEntity, IDomainEvent
 {
     private readonly List<IDomainEvent> _domainEvents = new();
 
@@ -15,6 +15,4 @@ public abstract class AggregateRoot<T> : AuditableEntity<T>, IDomainEvent
     {
         _domainEvents.Clear();
     }
-
-    public Guid Id { get; }
 }

@@ -1,6 +1,6 @@
 ﻿namespace CleanArchitecture.Shared.SeedWork;
 
-public record DomainEvent<T>(Guid Id) : IDomainEvent
+public abstract record DomainEvent(Guid Id) : IDomainEvent
 {
     
 }
