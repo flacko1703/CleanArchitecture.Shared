@@ -15,4 +15,6 @@ public abstract class AggregateRoot<T> : AuditableEntity<T>, IDomainEvent
     {
         _domainEvents.Clear();
     }
+
+    public Guid Id { get; }
 }
