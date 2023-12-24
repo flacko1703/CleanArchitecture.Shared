@@ -2,5 +2,5 @@
 
 public abstract class Entity<T>
 {
-    protected T Id { get; init; }
+    public T Id { get; init; }
 }
