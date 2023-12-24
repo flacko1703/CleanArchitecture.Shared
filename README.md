@@ -15,7 +15,7 @@ Contains abstractions:
   - IUnitOfWork
   - IEventBus
   - Result (from [FluentResult]('https://www.nuget.org/packages/FluentResult') package)
-  - 
+
 ## Installation
 
 Using .NET CLI:
