@@ -1,9 +1,10 @@
 ﻿namespace CleanArchitecture.Shared.SeedWork;
 
-public abstract class AuditableEntity<T> : Entity<T>
+public interface IAuditableEntity
 {
     DateTime CreatedAtUtc { get; init; }
     DateTime? UpdatedAtUtc { get; init; }
     
     uint Version { get; init; }
+    
 }
