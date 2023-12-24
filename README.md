@@ -12,10 +12,13 @@ Contains abstractions:
   - Enumeration (smart enum)
   - IAuditableEntity
   - IDomainEvent (implements [MediatR.INotification]('https://www.nuget.org/packages/MediatR'))
+  - DomainException
   - IUnitOfWork
   - IEventBus
   - Result (from [FluentResult]('https://www.nuget.org/packages/FluentResult') package)
-
+  - Options extensions (from [Microsoft.Extensions.Options]('https://www.nuget.org/packages/Microsoft.Extensions.Options') package)
+  - ICommand, ICommandHandler, ICommandDispatcher, InMemoryCommandDispatcher
+  - IQuery, IQueryHandler, IQueryDispatcher, InMemoryQueryDispatcher
 ## Installation
 
 Using .NET CLI:
