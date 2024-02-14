@@ -7,18 +7,20 @@
 SharedKernel for Clean Architecture projects.
 
 Contains abstractions:
-  - AggregateRoot
-  - Entity
-  - Enumeration (smart enum)
-  - IAuditableEntity
-  - IDomainEvent (implements [MediatR.INotification]('https://www.nuget.org/packages/MediatR'))
-  - DomainException
-  - IUnitOfWork
-  - IEventBus
-  - Result (from [FluentResult]('https://www.nuget.org/packages/FluentResult') package)
-  - Options extensions (from [Microsoft.Extensions.Options]('https://www.nuget.org/packages/Microsoft.Extensions.Options') package)
-  - ICommand, ICommandHandler, ICommandDispatcher, InMemoryCommandDispatcher
-  - IQuery, IQueryHandler, IQueryDispatcher, InMemoryQueryDispatcher
+- AggregateRoot
+- Entity
+- ValueObject
+- Enumeration (smart enum)
+- IAuditableEntity as Interface
+- AuditableEntity as abstract class
+- IDomainEvent (implements [MediatR.INotification]('https://www.nuget.org/packages/MediatR'))
+- DomainException
+- IUnitOfWork
+- IEventBus
+- Result (from [FluentResult]('https://www.nuget.org/packages/FluentResult') package)
+- Options extensions (from [Microsoft.Extensions.Options]('https://www.nuget.org/packages/Microsoft.Extensions.Options') package)
+- ICommand, ICommandHandler, ICommandDispatcher, InMemoryCommandDispatcher
+- IQuery, IQueryHandler, IQueryDispatcher, InMemoryQueryDispatcher
 ## Installation
 
 Using .NET CLI:
@@ -32,4 +34,3 @@ Using Package Manager:
 ```bash
 Install-Package CleanArchitecture.Shared
 ```
-
